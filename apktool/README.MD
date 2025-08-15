@@ -1,17 +1,16 @@
-# 下载
+# apktool
 
-[`apktool.jar`](https://github.com/iBotPeaches/Apktool/releases) 
-`apktool`脚本 
-[`windows`](https://github.com/iBotPeaches/Apktool/tree/master/scripts/windows) 
-[`osx`](https://github.com/iBotPeaches/Apktool/tree/master/scripts/osx) 
-[`linux`](https://github.com/iBotPeaches/Apktool/tree/master/scripts/linux) 
+- [apktool.jar](https://github.com/iBotPeaches/Apktool/releases)
 
-# 使用
+- apktool 脚本: 
+  - Windows [apktool.bat](https://github.com/iBotPeaches/Apktool/tree/master/scripts/windows/apktool.bat)
+  - MacOS [apktool.sh](https://github.com/iBotPeaches/Apktool/tree/master/scripts/osx/apktool.sh)
+  - Linux [apktool.sh](https://github.com/iBotPeaches/Apktool/tree/master/scripts/linux/apktool.sh)
 
-`apktool` 脚本没有的话  
-需要将命令 `apktool` 替换为 `java -jar apktool.jar`
+## Usage
 
-先将对应系统的脚本`apktool`放到`apktool.jar`同级目录 再执行以下命令
+先将 `scripts` 里对应系统的脚本放到 `apktool.jar` 同级目录 再执行命令  
+否则需要将命令 `apktool` 替换为 `java -jar apktool_对应版本.jar`
 
 反编译
 ```
@@ -51,7 +50,7 @@ $ apktool b bar -o new_bar.apk
 
 [Framework Files and more](https://ibotpeaches.github.io/Apktool/documentation/)
 
-#### 可能会遇到的问题
+## 可能会遇到的问题
 
 ---
 
